@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Crop Box Demo</title>
+    <style>
+        #wrap {
+            position: relative;
+            height: 600px;
+            background: #ccc;
+        }
+    </style>
+    <link rel="stylesheet" href="../dist/crop-box.css">
+</head>
+<body>
+<div id="wrap">
+
+</div>
+
+<script src="../dist/crop-box.js"></script>
+<script>
+    new CropBox({
+        elem: document.getElementById('wrap')
+    })
+</script>
+</body>
+</html>
