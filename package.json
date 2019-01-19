@@ -2,7 +2,7 @@
   "name": "crop-box",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/crop-box.js",
   "scripts": {
     "build": "npm run build:umd && npm run build:umd:min",
     "build:umd": "cross-env NODE_ENV=development rollup -c -o dist/crop-box.js",
@@ -15,6 +15,10 @@
   },
   "keywords": [
     "crop box"
+  ],
+  "files": [
+    "dist",
+    "src"
   ],
   "author": "vimo",
   "license": "MIT",
