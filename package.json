@@ -1,5 +1,5 @@
 {
-  "name": "crop-box",
+  "name": "@vimo/crop-box",
   "version": "1.0.0",
   "description": "",
   "main": "dist/crop-box.js",
