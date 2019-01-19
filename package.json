@@ -4,7 +4,7 @@
   "description": "",
   "main": "dist/crop-box.js",
   "scripts": {
-    "build": "npm run build:umd && npm run build:umd:min",
+    "build": "npm run build:umd && npm run build:umd:min && gulp",
     "build:umd": "cross-env NODE_ENV=development rollup -c -o dist/crop-box.js",
     "build:umd:min": "cross-env NODE_ENV=production rollup -c -o dist/crop-box.min.js",
     "test": "echo \"Error: no test specified\" && exit 1"
